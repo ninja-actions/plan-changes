@@ -4,7 +4,7 @@
   "description": "Plan what parts of your project need to be run through your pipeline",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ninja-actions/plan-changes/issues"
   },
-  "homepage": "https://github.com/ninja-actions/plan-changes#readme"
+  "homepage": "https://github.com/ninja-actions/plan-changes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7"
+  }
 }
