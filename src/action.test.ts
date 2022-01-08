@@ -1,5 +1,5 @@
 import {beforeAll, describe, expect, jest, test} from '@jest/globals';
-import {debug, setFailed} from "@actions/core";
+import {debug, setFailed} from '@actions/core';
 
 jest.mock('@actions/core');
 
