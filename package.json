@@ -1,0 +1,20 @@
+{
+  "name": "plan-changes",
+  "version": "1.0.0",
+  "description": "Plan what parts of your project need to be run through your pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninja-actions/plan-changes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninja-actions/plan-changes/issues"
+  },
+  "homepage": "https://github.com/ninja-actions/plan-changes#readme"
+}
