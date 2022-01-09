@@ -1,8 +1,8 @@
-import {debug, setFailed} from '@actions/core';
+import {debug, getMultilineInput, setFailed} from '@actions/core';
 
 try {
-  debug('Planning changes');
-
+  const codebasePaths = getMultilineInput('codebase_paths', {required: true});
+  debug(JSON.stringify({inputs: {codebasePaths}}));
 } catch (err) {
   setFailed(`Action failed with error ${err}`);
 }

@@ -1,0 +1,9 @@
+name: Plan Changes
+description: Plan what parts of your project need to be run through your pipeline
+inputs:
+  codebase_paths:
+    description: A multi-line input of paths or globs that contain the codebases of this repository
+    required: true
+runs:
+  using: node16
+  main: dist/main.js
